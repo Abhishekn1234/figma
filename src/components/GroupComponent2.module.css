@@ -1,0 +1,87 @@
+.groupChild,
+.istockphoto476199756612x612Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+}
+.istockphoto476199756612x612Icon {
+  object-fit: contain;
+  top: 4px;
+  transform: scale(1.118);
+}
+.wrapperIstockphoto476199756 {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  width: 109px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cementBags,
+.kg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  width: 99px;
+  height: 12px;
+  min-width: 99px;
+}
+.kg {
+  top: 14px;
+  left: 3px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray-200);
+  text-align: left;
+  width: 30px;
+  min-width: 30px;
+}
+.cementBagsParent,
+.weightUnit {
+  position: absolute;
+  top: 117px;
+  left: 13px;
+  width: 99px;
+  height: 26px;
+}
+.weightUnit {
+  top: 143px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+  white-space: nowrap;
+}
+.addSquareSvgrepoCom1Icon {
+  position: absolute;
+  top: 138px;
+  left: 103px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 795px;
+  left: 18px;
+  width: 140px;
+  height: 173px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}

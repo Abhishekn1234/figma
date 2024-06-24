@@ -1,0 +1,78 @@
+.heartIcon {
+  position: absolute;
+  top: 0;
+  left: 133px;
+  width: 31px;
+  height: 28px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.istockphoto476199756612x612Icon {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.077);
+}
+.wrapperIstockphoto476199756 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 167px;
+  height: 149px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heartParent {
+  position: absolute;
+  width: calc(100% - 5px);
+  top: 0;
+  right: 0;
+  left: 5px;
+  height: 154px;
+}
+.frameChild {
+  height: 16px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-red);
+  display: none;
+}
+.description {
+  position: relative;
+  line-height: 12px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 30px;
+  z-index: 1;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-red);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-10xs) var(--padding-12xs)
+    var(--padding-8xs);
+  z-index: 4;
+}
+.frameParent {
+  align-self: stretch;
+  height: 154px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

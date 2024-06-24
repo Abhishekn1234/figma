@@ -1,0 +1,100 @@
+.searchInputFieldChild {
+  height: 53px;
+  width: 312.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.searchInputFieldItem {
+  width: 55px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 30.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi-1) 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-500);
+}
+.searchCircleStreamlineUltiIcon {
+  height: 43px;
+  width: 43px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.searchInput,
+.searchInputField {
+  display: flex;
+  align-items: flex-start;
+}
+.searchInputField {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-3xs) var(--padding-8xs)
+    var(--padding-2xl);
+  gap: var(--gap-xl);
+}
+.searchInput {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.filterButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.adjustSvgrepoCom1Icon {
+  position: absolute;
+  top: 9px;
+  left: 10.9px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  z-index: 2;
+}
+.filterButton {
+  height: 53px;
+  width: 54.9px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-300);
+}
+.mainSidebar,
+.searchInputParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.searchInputParent {
+  flex: 1;
+  gap: var(--gap-base-5);
+  cursor: pointer;
+}
+.mainSidebar {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl) var(--padding-2xs) var(--padding-4xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}

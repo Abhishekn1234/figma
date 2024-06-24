@@ -1,0 +1,58 @@
+.depth4Frame1 {
+  width: 372px;
+  height: 163px;
+  display: none;
+  max-width: 100%;
+}
+.editProfile {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 11px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+.editProfileBtn,
+.editProfileBtnWrapper,
+.homeSeller {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.editProfileBtn {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-mini);
+  white-space: nowrap;
+  max-width: 100%;
+  cursor: pointer;
+}
+.editProfileBtnWrapper,
+.homeSeller {
+  justify-content: flex-start;
+}
+.editProfileBtnWrapper {
+  width: 381px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) var(--padding-5xs);
+  max-width: 100%;
+}
+.homeSeller {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 78px var(--padding-xs) 0 var(--padding-6xl);
+  gap: var(--gap-lgi);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}

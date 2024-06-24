@@ -1,0 +1,261 @@
+.frameChild,
+.todaysSales {
+  align-self: stretch;
+  position: relative;
+}
+.todaysSales {
+  margin: 0;
+  height: 24px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 111.58px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 165px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameChild4,
+.frameChild5,
+.frameInner,
+.frameItem,
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0.6px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  width: 368.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi-8) 0 var(--padding-smi-2);
+  box-sizing: border-box;
+  gap: var(--gap-mid-9);
+  z-index: 1;
+}
+.detailIcons,
+.detailIcons1,
+.detailIcons2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 358px;
+  height: 148px;
+}
+.detailIcons1,
+.detailIcons2 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.detailIcons2 {
+  width: 358px;
+  height: 148px;
+  z-index: 2;
+}
+.depth7Frame1 {
+  align-self: stretch;
+  height: 146px;
+  display: none;
+}
+.depth7Frame0 {
+  position: absolute;
+  top: -1226px;
+  left: 156px;
+  width: 0;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.depth6Frame0 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 369px;
+  height: 138px;
+  overflow: hidden;
+  z-index: 2;
+}
+.salesChart {
+  align-self: stretch;
+  height: 173px;
+  position: relative;
+}
+.shortcuts {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.shortcutsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleDiv {
+  width: 174px;
+  height: 105px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-skyblue);
+  display: none;
+}
+.salesIcon {
+  height: 27px;
+  width: 28px;
+  position: relative;
+  z-index: 1;
+}
+.salesIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.sales {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 111.58px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroup {
+  flex: 0.7568;
+  border-radius: var(--br-sm);
+  background-color: var(--color-skyblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-40xl) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 130px;
+  cursor: pointer;
+}
+.frameChild6 {
+  width: 174px;
+  height: 105px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-khaki);
+  display: none;
+}
+.goodsFilledSvgrepoCom1Icon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.goodsFilledSvgrepoCom1Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.products {
+  height: 13px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 111.58px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 74px;
+  z-index: 1;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-sm);
+  background-color: var(--color-khaki);
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-31xl) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 130px;
+  cursor: pointer;
+  color: var(--color-darkolivegreen);
+}
+.frameParent,
+.rectangleContainer,
+.salesHeader,
+.salesHeaderWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 0;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.salesHeader,
+.salesHeaderWrapper {
+  max-width: 100%;
+}
+.salesHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs-3);
+}
+.salesHeaderWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-7xs) var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 352px) {
+  .rectangleContainer,
+  .rectangleGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

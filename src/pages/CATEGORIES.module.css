@@ -1,0 +1,206 @@
+.leftArrowSvgrepoCom1Icon {
+  height: 27px;
+  width: 27px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.categories1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 114px;
+}
+.leftArrowSvgrepoCom1Parent,
+.primaryContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.leftArrowSvgrepoCom1Parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.primaryContent {
+  width: 296px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) var(--padding-smi);
+  box-sizing: border-box;
+}
+.categoriesChild {
+  width: 85px;
+  height: 5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 384px;
+  left: 20px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-cornflowerblue);
+  z-index: 1;
+}
+.navigationDotsChild,
+.navigationDotsInner,
+.navigationDotsItem {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  border-radius: 50%;
+  background-color: var(--color-gray-300);
+  width: 7px;
+  height: 7px;
+}
+.navigationDotsInner,
+.navigationDotsItem {
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+}
+.navigationDotsInner {
+  left: 24px;
+}
+.navigationDots {
+  height: 7px;
+  width: 31px;
+  position: relative;
+}
+.categoryNavigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.concreteReady,
+.masonry,
+.plasterMortar {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.masonry {
+  text-decoration: none;
+  color: var(--color-cornflowerblue);
+  min-width: 80px;
+}
+.concreteReady,
+.plasterMortar {
+  flex: 1;
+  min-width: 96px;
+}
+.plasterMortar {
+  min-width: 101px;
+}
+.navigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xl);
+  gap: var(--gap-mini);
+}
+.categorySeparatorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -13px;
+}
+.categoryList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  gap: var(--gap-8xs);
+}
+.frameChild {
+  height: 58px;
+  width: 383px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.redClayBlocks {
+  width: 320px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 14px;
+  width: 7px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 7px);
+  right: 16px;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-base);
+  position: relative;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.categories,
+.categoryNavigationParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-gray-300);
+}
+.categories,
+.categoryNavigationParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-family: var(--font-poppins);
+}
+.categoryNavigationParent {
+  align-self: stretch;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.categories {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 74px 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+}

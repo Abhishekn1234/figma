@@ -1,0 +1,135 @@
+.frameChild,
+.startingFrom {
+  position: relative;
+  z-index: 1;
+}
+.frameChild {
+  height: 129px;
+  width: 383px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  display: none;
+  max-width: 100%;
+}
+.startingFrom {
+  align-self: stretch;
+  height: 16.8px;
+  line-height: 10px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.productTitle {
+  width: 176.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-32xl) 0 0;
+  box-sizing: border-box;
+  color: var(--color-mediumvioletred);
+}
+.tmtSteelBars {
+  height: 23px;
+  position: relative;
+  line-height: 10px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.ogunSteelBar500x5001RemovIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.104);
+}
+.wrapperOgunSteelBar500x500 {
+  height: 109.4px;
+  width: 189.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: -184.3px;
+  bottom: -76.6px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.fe550Grade {
+  align-self: stretch;
+  position: relative;
+  line-height: 10px;
+  font-weight: 500;
+  z-index: 2;
+}
+.productDetails,
+.productGrade {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -176.1px;
+}
+.productGrade {
+  width: 116.4px;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.productDetails {
+  width: 176.1px;
+  flex-direction: row;
+}
+.priceValue {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 1;
+}
+.categoriesInner,
+.productPrice,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.productPrice {
+  width: 87.3px;
+  flex-direction: column;
+  padding: var(--padding-46xl) 0 0;
+  margin-left: -176.1px;
+}
+.categoriesInner,
+.rectangleParent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  padding: var(--padding-2xl) var(--padding-2xl) var(--padding-mini);
+}
+.categoriesInner {
+  align-self: stretch;
+  padding: 0 var(--padding-5xl) var(--padding-9xs) var(--padding-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}

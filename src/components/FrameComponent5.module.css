@@ -1,0 +1,229 @@
+.addCollaborationsButtonChild {
+  height: 58px;
+  width: 383px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.thermalInsulatedConcrete {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.vectorIcon {
+  width: 7px;
+  height: 14px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.addCollaborationsButton,
+.companyLogoChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.addCollaborationsButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-5xl);
+}
+.companyLogoChild {
+  height: 58px;
+  width: 383px;
+  position: relative;
+  display: none;
+}
+.lightWeightBlocks {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.vectorIcon1 {
+  width: 7px;
+  height: 14px;
+  position: relative;
+  z-index: 1;
+}
+.vectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.companyLogo,
+.frameChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.companyLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-5xl);
+}
+.frameChild {
+  height: 58px;
+  width: 383px;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.solidBlocksNormal {
+  width: 320px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 14px;
+  width: 7px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 7px);
+  right: 16px;
+  z-index: 1;
+}
+.contactInfoTitleChild,
+.rectangleParent {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base);
+  white-space: nowrap;
+}
+.contactInfoTitleChild {
+  height: 58px;
+  width: 383px;
+  display: none;
+  z-index: 0;
+}
+.interlocksPavings {
+  width: 320px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vectorIcon3 {
+  height: 14px;
+  width: 7px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 7px);
+  right: 16px;
+  z-index: 1;
+}
+.contactInfoTitle,
+.editProfileChild {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactInfoTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-base);
+  white-space: nowrap;
+}
+.editProfileChild {
+  height: 58px;
+  width: 383px;
+  display: none;
+  z-index: 0;
+}
+.kerbstoneHeelkerb {
+  width: 326px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 0px);
+  z-index: 1;
+}
+.vectorIcon4 {
+  height: 14px;
+  width: 7px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 7px);
+  right: 16px;
+  z-index: 1;
+}
+.editProfile {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-base);
+  position: relative;
+  white-space: nowrap;
+}
+.addCollaborationsButtonParent,
+.editProfile,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addCollaborationsButtonParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
